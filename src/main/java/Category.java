@@ -1,4 +1,8 @@
+import java.util.Random;
+
 public class Category {
+    Random random = new Random();
+
     private String name;
     public String getName() {
         return name;
