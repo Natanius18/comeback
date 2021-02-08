@@ -5,7 +5,7 @@ public class Product {
     }
     private String name;
     private Integer price;
-    private Category category;
+    private Category category = new Category();
     public String getName() {
         return name;
     }
